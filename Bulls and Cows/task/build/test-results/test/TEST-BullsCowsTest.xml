@@ -1,0 +1,3461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BullsCowsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-11T16:40:34" hostname="LAPTOP-5B4984PM" time="1.386">
+  <properties/>
+  <testcase name="start" classname="BullsCowsTest" time="1.386"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Input the length of the secret code:
+> 1
+Input the number of possible symbols in the code:
+> 10
+The secret is prepared: * (0-9, a-`).
+Okay, let's start a game!
+Turn 1:
+> 0
+Grade: 1 bull(s)
+Congratulations! You guessed the secret code.
+?[1;31m
+Start test 2?[0m
+Input the length of the secret code:
+> 4
+Input the number of possible symbols in the code:
+> 10
+The secret is prepared: **** (0-9, a-`).
+Okay, let's start a game!
+Turn 1:
+> 0000
+Grade: None
+Turn 2:
+> 1111
+Grade: None
+Turn 3:
+> 2222
+Grade: None
+Turn 4:
+> 3333
+Grade: None
+Turn 5:
+> 4444
+Grade: 1 bull(s) and 3 cow(s)
+Turn 6:
+> 5555
+Grade: 1 bull(s)
+Turn 7:
+> 6666
+Grade: 1 bull(s) and 3 cow(s)
+Turn 8:
+> 7777
+Grade: None
+Turn 9:
+> 8888
+Grade: 1 bull(s) and 3 cow(s)
+Turn 10:
+> 4568
+Grade: 3 cow(s)
+Turn 11:
+> 5468
+Grade: 1 bull(s) and 3 cow(s)
+Turn 12:
+> 6458
+Grade: 3 cow(s)
+Turn 13:
+> 4658
+Grade: 1 bull(s) and 2 cow(s)
+Turn 14:
+> 5648
+Grade: 2 bull(s) and 2 cow(s)
+Turn 15:
+> 6548
+Grade: 3 cow(s)
+Turn 16:
+> 8546
+Grade: 3 cow(s)
+Turn 17:
+> 5846
+Grade: 1 bull(s) and 3 cow(s)
+Turn 18:
+> 4856
+Grade: 3 cow(s)
+Turn 19:
+> 8456
+Grade: 3 cow(s)
+Turn 20:
+> 5486
+Grade: 2 bull(s) and 2 cow(s)
+Turn 21:
+> 4586
+Grade: 1 bull(s) and 2 cow(s)
+Turn 22:
+> 4685
+Grade: 2 bull(s) and 1 cow(s)
+Turn 23:
+> 6485
+Grade: 1 bull(s) and 2 cow(s)
+Turn 24:
+> 8465
+Grade: 3 cow(s)
+Turn 25:
+> 4865
+Grade: 3 cow(s)
+Turn 26:
+> 6845
+Grade: 3 cow(s)
+Turn 27:
+> 8645
+Grade: 1 bull(s) and 2 cow(s)
+Turn 28:
+> 8654
+Grade: 2 bull(s) and 1 cow(s)
+Turn 29:
+> 6854
+Grade: 1 bull(s) and 2 cow(s)
+Turn 30:
+> 5864
+Grade: 2 bull(s) and 2 cow(s)
+Turn 31:
+> 8564
+Grade: 1 bull(s) and 2 cow(s)
+Turn 32:
+> 6584
+Grade: 2 bull(s) and 1 cow(s)
+Turn 33:
+> 5684
+Grade: 4 bull(s)
+Congratulations! You guessed the secret code.
+?[1;31m
+Start test 3?[0m
+Input the length of the secret code:
+> 6
+Input the number of possible symbols in the code:
+> 10
+The secret is prepared: ****** (0-9, a-`).
+Okay, let's start a game!
+Turn 1:
+> 000000
+Grade: None
+Turn 2:
+> 111111
+Grade: 1 bull(s) and 5 cow(s)
+Turn 3:
+> 222222
+Grade: 1 bull(s) and 5 cow(s)
+Turn 4:
+> 333333
+Grade: None
+Turn 5:
+> 444444
+Grade: None
+Turn 6:
+> 555555
+Grade: 1 bull(s) and 5 cow(s)
+Turn 7:
+> 666666
+Grade: 1 bull(s) and 5 cow(s)
+Turn 8:
+> 777777
+Grade: None
+Turn 9:
+> 888888
+Grade: 1 bull(s)
+Turn 10:
+> 999999
+Grade: 1 bull(s) and 5 cow(s)
+Turn 11:
+> 125689
+Grade: 1 bull(s) and 4 cow(s)
+Turn 12:
+> 215689
+Grade: 5 cow(s)
+Turn 13:
+> 512689
+Grade: 5 cow(s)
+Turn 14:
+> 152689
+Grade: 5 cow(s)
+Turn 15:
+> 251689
+Grade: 5 cow(s)
+Turn 16:
+> 521689
+Grade: 1 bull(s) and 4 cow(s)
+Turn 17:
+> 621589
+Grade: 1 bull(s) and 4 cow(s)
+Turn 18:
+> 261589
+Grade: 5 cow(s)
+Turn 19:
+> 162589
+Grade: 5 cow(s)
+Turn 20:
+> 612589
+Grade: 5 cow(s)
+Turn 21:
+> 216589
+Grade: 5 cow(s)
+Turn 22:
+> 126589
+Grade: 1 bull(s) and 4 cow(s)
+Turn 23:
+> 156289
+Grade: 5 cow(s)
+Turn 24:
+> 516289
+Grade: 5 cow(s)
+Turn 25:
+> 615289
+Grade: 5 cow(s)
+Turn 26:
+> 165289
+Grade: 5 cow(s)
+Turn 27:
+> 561289
+Grade: 5 cow(s)
+Turn 28:
+> 651289
+Grade: 5 cow(s)
+Turn 29:
+> 652189
+Grade: 1 bull(s) and 4 cow(s)
+Turn 30:
+> 562189
+Grade: 1 bull(s) and 4 cow(s)
+Turn 31:
+> 265189
+Grade: 1 bull(s) and 4 cow(s)
+Turn 32:
+> 625189
+Grade: 2 bull(s) and 3 cow(s)
+Turn 33:
+> 526189
+Grade: 2 bull(s) and 3 cow(s)
+Turn 34:
+> 256189
+Grade: 1 bull(s) and 4 cow(s)
+Turn 35:
+> 856129
+Grade: 2 bull(s) and 4 cow(s)
+Turn 36:
+> 586129
+Grade: 1 bull(s) and 4 cow(s)
+Turn 37:
+> 685129
+Grade: 1 bull(s) and 4 cow(s)
+Turn 38:
+> 865129
+Grade: 2 bull(s) and 4 cow(s)
+Turn 39:
+> 568129
+Grade: 1 bull(s) and 4 cow(s)
+Turn 40:
+> 658129
+Grade: 1 bull(s) and 4 cow(s)
+Turn 41:
+> 158629
+Grade: 5 cow(s)
+Turn 42:
+> 518629
+Grade: 5 cow(s)
+Turn 43:
+> 815629
+Grade: 1 bull(s) and 5 cow(s)
+Turn 44:
+> 185629
+Grade: 5 cow(s)
+Turn 45:
+> 581629
+Grade: 5 cow(s)
+Turn 46:
+> 851629
+Grade: 1 bull(s) and 5 cow(s)
+Turn 47:
+> 861529
+Grade: 1 bull(s) and 5 cow(s)
+Turn 48:
+> 681529
+Grade: 5 cow(s)
+Turn 49:
+> 186529
+Grade: 5 cow(s)
+Turn 50:
+> 816529
+Grade: 1 bull(s) and 5 cow(s)
+Turn 51:
+> 618529
+Grade: 5 cow(s)
+Turn 52:
+> 168529
+Grade: 5 cow(s)
+Turn 53:
+> 165829
+Grade: 5 cow(s)
+Turn 54:
+> 615829
+Grade: 5 cow(s)
+Turn 55:
+> 516829
+Grade: 5 cow(s)
+Turn 56:
+> 156829
+Grade: 5 cow(s)
+Turn 57:
+> 651829
+Grade: 5 cow(s)
+Turn 58:
+> 561829
+Grade: 5 cow(s)
+Turn 59:
+> 261859
+Grade: 1 bull(s) and 4 cow(s)
+Turn 60:
+> 621859
+Grade: 2 bull(s) and 3 cow(s)
+Turn 61:
+> 126859
+Grade: 2 bull(s) and 3 cow(s)
+Turn 62:
+> 216859
+Grade: 1 bull(s) and 4 cow(s)
+Turn 63:
+> 612859
+Grade: 1 bull(s) and 4 cow(s)
+Turn 64:
+> 162859
+Grade: 1 bull(s) and 4 cow(s)
+Turn 65:
+> 862159
+Grade: 3 bull(s) and 3 cow(s)
+Turn 66:
+> 682159
+Grade: 2 bull(s) and 3 cow(s)
+Turn 67:
+> 286159
+Grade: 2 bull(s) and 3 cow(s)
+Turn 68:
+> 826159
+Grade: 4 bull(s) and 2 cow(s)
+Turn 69:
+> 628159
+Grade: 3 bull(s) and 2 cow(s)
+Turn 70:
+> 268159
+Grade: 2 bull(s) and 3 cow(s)
+Turn 71:
+> 218659
+Grade: 1 bull(s) and 4 cow(s)
+Turn 72:
+> 128659
+Grade: 2 bull(s) and 3 cow(s)
+Turn 73:
+> 821659
+Grade: 3 bull(s) and 3 cow(s)
+Turn 74:
+> 281659
+Grade: 1 bull(s) and 4 cow(s)
+Turn 75:
+> 182659
+Grade: 1 bull(s) and 4 cow(s)
+Turn 76:
+> 812659
+Grade: 2 bull(s) and 4 cow(s)
+Turn 77:
+> 816259
+Grade: 2 bull(s) and 4 cow(s)
+Turn 78:
+> 186259
+Grade: 1 bull(s) and 4 cow(s)
+Turn 79:
+> 681259
+Grade: 1 bull(s) and 4 cow(s)
+Turn 80:
+> 861259
+Grade: 2 bull(s) and 4 cow(s)
+Turn 81:
+> 168259
+Grade: 1 bull(s) and 4 cow(s)
+Turn 82:
+> 618259
+Grade: 1 bull(s) and 4 cow(s)
+Turn 83:
+> 518269
+Grade: 5 cow(s)
+Turn 84:
+> 158269
+Grade: 5 cow(s)
+Turn 85:
+> 851269
+Grade: 1 bull(s) and 5 cow(s)
+Turn 86:
+> 581269
+Grade: 5 cow(s)
+Turn 87:
+> 185269
+Grade: 5 cow(s)
+Turn 88:
+> 815269
+Grade: 1 bull(s) and 5 cow(s)
+Turn 89:
+> 215869
+Grade: 5 cow(s)
+Turn 90:
+> 125869
+Grade: 1 bull(s) and 4 cow(s)
+Turn 91:
+> 521869
+Grade: 1 bull(s) and 4 cow(s)
+Turn 92:
+> 251869
+Grade: 5 cow(s)
+Turn 93:
+> 152869
+Grade: 5 cow(s)
+Turn 94:
+> 512869
+Grade: 5 cow(s)
+Turn 95:
+> 582169
+Grade: 1 bull(s) and 4 cow(s)
+Turn 96:
+> 852169
+Grade: 2 bull(s) and 4 cow(s)
+Turn 97:
+> 258169
+Grade: 1 bull(s) and 4 cow(s)
+Turn 98:
+> 528169
+Grade: 2 bull(s) and 3 cow(s)
+Turn 99:
+> 825169
+Grade: 3 bull(s) and 3 cow(s)
+Turn 100:
+> 285169
+Grade: 1 bull(s) and 4 cow(s)
+Turn 101:
+> 281569
+Grade: 5 cow(s)
+Turn 102:
+> 821569
+Grade: 2 bull(s) and 4 cow(s)
+Turn 103:
+> 128569
+Grade: 1 bull(s) and 4 cow(s)
+Turn 104:
+> 218569
+Grade: 5 cow(s)
+Turn 105:
+> 812569
+Grade: 1 bull(s) and 5 cow(s)
+Turn 106:
+> 182569
+Grade: 5 cow(s)
+Turn 107:
+> 682519
+Grade: 5 cow(s)
+Turn 108:
+> 862519
+Grade: 1 bull(s) and 5 cow(s)
+Turn 109:
+> 268519
+Grade: 5 cow(s)
+Turn 110:
+> 628519
+Grade: 1 bull(s) and 4 cow(s)
+Turn 111:
+> 826519
+Grade: 2 bull(s) and 4 cow(s)
+Turn 112:
+> 286519
+Grade: 5 cow(s)
+Turn 113:
+> 586219
+Grade: 5 cow(s)
+Turn 114:
+> 856219
+Grade: 1 bull(s) and 5 cow(s)
+Turn 115:
+> 658219
+Grade: 5 cow(s)
+Turn 116:
+> 568219
+Grade: 5 cow(s)
+Turn 117:
+> 865219
+Grade: 1 bull(s) and 5 cow(s)
+Turn 118:
+> 685219
+Grade: 5 cow(s)
+Turn 119:
+> 625819
+Grade: 1 bull(s) and 4 cow(s)
+Turn 120:
+> 265819
+Grade: 5 cow(s)
+Turn 121:
+> 562819
+Grade: 5 cow(s)
+Turn 122:
+> 652819
+Grade: 5 cow(s)
+Turn 123:
+> 256819
+Grade: 5 cow(s)
+Turn 124:
+> 526819
+Grade: 1 bull(s) and 4 cow(s)
+Turn 125:
+> 528619
+Grade: 1 bull(s) and 4 cow(s)
+Turn 126:
+> 258619
+Grade: 5 cow(s)
+Turn 127:
+> 852619
+Grade: 1 bull(s) and 5 cow(s)
+Turn 128:
+> 582619
+Grade: 5 cow(s)
+Turn 129:
+> 285619
+Grade: 5 cow(s)
+Turn 130:
+> 825619
+Grade: 2 bull(s) and 4 cow(s)
+Turn 131:
+> 925618
+Grade: 1 bull(s) and 4 cow(s)
+Turn 132:
+> 295618
+Grade: 5 cow(s)
+Turn 133:
+> 592618
+Grade: 5 cow(s)
+Turn 134:
+> 952618
+Grade: 5 cow(s)
+Turn 135:
+> 259618
+Grade: 1 bull(s) and 4 cow(s)
+Turn 136:
+> 529618
+Grade: 2 bull(s) and 3 cow(s)
+Turn 137:
+> 629518
+Grade: 2 bull(s) and 3 cow(s)
+Turn 138:
+> 269518
+Grade: 1 bull(s) and 4 cow(s)
+Turn 139:
+> 962518
+Grade: 5 cow(s)
+Turn 140:
+> 692518
+Grade: 5 cow(s)
+Turn 141:
+> 296518
+Grade: 5 cow(s)
+Turn 142:
+> 926518
+Grade: 1 bull(s) and 4 cow(s)
+Turn 143:
+> 956218
+Grade: 5 cow(s)
+Turn 144:
+> 596218
+Grade: 5 cow(s)
+Turn 145:
+> 695218
+Grade: 5 cow(s)
+Turn 146:
+> 965218
+Grade: 5 cow(s)
+Turn 147:
+> 569218
+Grade: 1 bull(s) and 4 cow(s)
+Turn 148:
+> 659218
+Grade: 1 bull(s) and 4 cow(s)
+Turn 149:
+> 652918
+Grade: 5 cow(s)
+Turn 150:
+> 562918
+Grade: 5 cow(s)
+Turn 151:
+> 265918
+Grade: 5 cow(s)
+Turn 152:
+> 625918
+Grade: 1 bull(s) and 4 cow(s)
+Turn 153:
+> 526918
+Grade: 1 bull(s) and 4 cow(s)
+Turn 154:
+> 256918
+Grade: 5 cow(s)
+Turn 155:
+> 156928
+Grade: 5 cow(s)
+Turn 156:
+> 516928
+Grade: 5 cow(s)
+Turn 157:
+> 615928
+Grade: 5 cow(s)
+Turn 158:
+> 165928
+Grade: 5 cow(s)
+Turn 159:
+> 561928
+Grade: 5 cow(s)
+Turn 160:
+> 651928
+Grade: 5 cow(s)
+Turn 161:
+> 951628
+Grade: 5 cow(s)
+Turn 162:
+> 591628
+Grade: 5 cow(s)
+Turn 163:
+> 195628
+Grade: 5 cow(s)
+Turn 164:
+> 915628
+Grade: 5 cow(s)
+Turn 165:
+> 519628
+Grade: 1 bull(s) and 4 cow(s)
+Turn 166:
+> 159628
+Grade: 1 bull(s) and 4 cow(s)
+Turn 167:
+> 169528
+Grade: 1 bull(s) and 4 cow(s)
+Turn 168:
+> 619528
+Grade: 1 bull(s) and 4 cow(s)
+Turn 169:
+> 916528
+Grade: 5 cow(s)
+Turn 170:
+> 196528
+Grade: 5 cow(s)
+Turn 171:
+> 691528
+Grade: 5 cow(s)
+Turn 172:
+> 961528
+Grade: 5 cow(s)
+Turn 173:
+> 965128
+Grade: 1 bull(s) and 4 cow(s)
+Turn 174:
+> 695128
+Grade: 1 bull(s) and 4 cow(s)
+Turn 175:
+> 596128
+Grade: 1 bull(s) and 4 cow(s)
+Turn 176:
+> 956128
+Grade: 1 bull(s) and 4 cow(s)
+Turn 177:
+> 659128
+Grade: 2 bull(s) and 3 cow(s)
+Turn 178:
+> 569128
+Grade: 2 bull(s) and 3 cow(s)
+Turn 179:
+> 269158
+Grade: 3 bull(s) and 2 cow(s)
+Turn 180:
+> 629158
+Grade: 4 bull(s) and 1 cow(s)
+Turn 181:
+> 926158
+Grade: 3 bull(s) and 2 cow(s)
+Turn 182:
+> 296158
+Grade: 2 bull(s) and 3 cow(s)
+Turn 183:
+> 692158
+Grade: 2 bull(s) and 3 cow(s)
+Turn 184:
+> 962158
+Grade: 2 bull(s) and 3 cow(s)
+Turn 185:
+> 162958
+Grade: 1 bull(s) and 4 cow(s)
+Turn 186:
+> 612958
+Grade: 1 bull(s) and 4 cow(s)
+Turn 187:
+> 216958
+Grade: 1 bull(s) and 4 cow(s)
+Turn 188:
+> 126958
+Grade: 2 bull(s) and 3 cow(s)
+Turn 189:
+> 621958
+Grade: 2 bull(s) and 3 cow(s)
+Turn 190:
+> 261958
+Grade: 1 bull(s) and 4 cow(s)
+Turn 191:
+> 291658
+Grade: 1 bull(s) and 4 cow(s)
+Turn 192:
+> 921658
+Grade: 2 bull(s) and 3 cow(s)
+Turn 193:
+> 129658
+Grade: 3 bull(s) and 2 cow(s)
+Turn 194:
+> 219658
+Grade: 2 bull(s) and 3 cow(s)
+Turn 195:
+> 912658
+Grade: 1 bull(s) and 4 cow(s)
+Turn 196:
+> 192658
+Grade: 1 bull(s) and 4 cow(s)
+Turn 197:
+> 196258
+Grade: 1 bull(s) and 4 cow(s)
+Turn 198:
+> 916258
+Grade: 1 bull(s) and 4 cow(s)
+Turn 199:
+> 619258
+Grade: 2 bull(s) and 3 cow(s)
+Turn 200:
+> 169258
+Grade: 2 bull(s) and 3 cow(s)
+Turn 201:
+> 961258
+Grade: 1 bull(s) and 4 cow(s)
+Turn 202:
+> 691258
+Grade: 1 bull(s) and 4 cow(s)
+Turn 203:
+> 591268
+Grade: 5 cow(s)
+Turn 204:
+> 951268
+Grade: 5 cow(s)
+Turn 205:
+> 159268
+Grade: 1 bull(s) and 4 cow(s)
+Turn 206:
+> 519268
+Grade: 1 bull(s) and 4 cow(s)
+Turn 207:
+> 915268
+Grade: 5 cow(s)
+Turn 208:
+> 195268
+Grade: 5 cow(s)
+Turn 209:
+> 295168
+Grade: 1 bull(s) and 4 cow(s)
+Turn 210:
+> 925168
+Grade: 2 bull(s) and 3 cow(s)
+Turn 211:
+> 529168
+Grade: 3 bull(s) and 2 cow(s)
+Turn 212:
+> 259168
+Grade: 2 bull(s) and 3 cow(s)
+Turn 213:
+> 952168
+Grade: 1 bull(s) and 4 cow(s)
+Turn 214:
+> 592168
+Grade: 1 bull(s) and 4 cow(s)
+Turn 215:
+> 512968
+Grade: 5 cow(s)
+Turn 216:
+> 152968
+Grade: 5 cow(s)
+Turn 217:
+> 251968
+Grade: 5 cow(s)
+Turn 218:
+> 521968
+Grade: 1 bull(s) and 4 cow(s)
+Turn 219:
+> 125968
+Grade: 1 bull(s) and 4 cow(s)
+Turn 220:
+> 215968
+Grade: 5 cow(s)
+Turn 221:
+> 219568
+Grade: 1 bull(s) and 4 cow(s)
+Turn 222:
+> 129568
+Grade: 2 bull(s) and 3 cow(s)
+Turn 223:
+> 921568
+Grade: 1 bull(s) and 4 cow(s)
+Turn 224:
+> 291568
+Grade: 5 cow(s)
+Turn 225:
+> 192568
+Grade: 5 cow(s)
+Turn 226:
+> 912568
+Grade: 5 cow(s)
+Turn 227:
+> 612598
+Grade: 5 cow(s)
+Turn 228:
+> 162598
+Grade: 5 cow(s)
+Turn 229:
+> 261598
+Grade: 5 cow(s)
+Turn 230:
+> 621598
+Grade: 1 bull(s) and 4 cow(s)
+Turn 231:
+> 126598
+Grade: 1 bull(s) and 4 cow(s)
+Turn 232:
+> 216598
+Grade: 5 cow(s)
+Turn 233:
+> 516298
+Grade: 5 cow(s)
+Turn 234:
+> 156298
+Grade: 5 cow(s)
+Turn 235:
+> 651298
+Grade: 5 cow(s)
+Turn 236:
+> 561298
+Grade: 5 cow(s)
+Turn 237:
+> 165298
+Grade: 5 cow(s)
+Turn 238:
+> 615298
+Grade: 5 cow(s)
+Turn 239:
+> 625198
+Grade: 2 bull(s) and 3 cow(s)
+Turn 240:
+> 265198
+Grade: 1 bull(s) and 4 cow(s)
+Turn 241:
+> 562198
+Grade: 1 bull(s) and 4 cow(s)
+Turn 242:
+> 652198
+Grade: 1 bull(s) and 4 cow(s)
+Turn 243:
+> 256198
+Grade: 1 bull(s) and 4 cow(s)
+Turn 244:
+> 526198
+Grade: 2 bull(s) and 3 cow(s)
+Turn 245:
+> 521698
+Grade: 1 bull(s) and 4 cow(s)
+Turn 246:
+> 251698
+Grade: 5 cow(s)
+Turn 247:
+> 152698
+Grade: 5 cow(s)
+Turn 248:
+> 512698
+Grade: 5 cow(s)
+Turn 249:
+> 215698
+Grade: 5 cow(s)
+Turn 250:
+> 125698
+Grade: 1 bull(s) and 4 cow(s)
+Turn 251:
+> 185692
+Grade: 5 cow(s)
+Turn 252:
+> 815692
+Grade: 1 bull(s) and 5 cow(s)
+Turn 253:
+> 518692
+Grade: 5 cow(s)
+Turn 254:
+> 158692
+Grade: 5 cow(s)
+Turn 255:
+> 851692
+Grade: 1 bull(s) and 5 cow(s)
+Turn 256:
+> 581692
+Grade: 5 cow(s)
+Turn 257:
+> 681592
+Grade: 5 cow(s)
+Turn 258:
+> 861592
+Grade: 1 bull(s) and 5 cow(s)
+Turn 259:
+> 168592
+Grade: 5 cow(s)
+Turn 260:
+> 618592
+Grade: 5 cow(s)
+Turn 261:
+> 816592
+Grade: 1 bull(s) and 5 cow(s)
+Turn 262:
+> 186592
+Grade: 5 cow(s)
+Turn 263:
+> 156892
+Grade: 5 cow(s)
+Turn 264:
+> 516892
+Grade: 5 cow(s)
+Turn 265:
+> 615892
+Grade: 5 cow(s)
+Turn 266:
+> 165892
+Grade: 5 cow(s)
+Turn 267:
+> 561892
+Grade: 5 cow(s)
+Turn 268:
+> 651892
+Grade: 5 cow(s)
+Turn 269:
+> 658192
+Grade: 1 bull(s) and 4 cow(s)
+Turn 270:
+> 568192
+Grade: 1 bull(s) and 4 cow(s)
+Turn 271:
+> 865192
+Grade: 2 bull(s) and 4 cow(s)
+Turn 272:
+> 685192
+Grade: 1 bull(s) and 4 cow(s)
+Turn 273:
+> 586192
+Grade: 1 bull(s) and 4 cow(s)
+Turn 274:
+> 856192
+Grade: 2 bull(s) and 4 cow(s)
+Turn 275:
+> 956182
+Grade: 1 bull(s) and 4 cow(s)
+Turn 276:
+> 596182
+Grade: 1 bull(s) and 4 cow(s)
+Turn 277:
+> 695182
+Grade: 1 bull(s) and 4 cow(s)
+Turn 278:
+> 965182
+Grade: 1 bull(s) and 4 cow(s)
+Turn 279:
+> 569182
+Grade: 2 bull(s) and 3 cow(s)
+Turn 280:
+> 659182
+Grade: 2 bull(s) and 3 cow(s)
+Turn 281:
+> 159682
+Grade: 1 bull(s) and 4 cow(s)
+Turn 282:
+> 519682
+Grade: 1 bull(s) and 4 cow(s)
+Turn 283:
+> 915682
+Grade: 5 cow(s)
+Turn 284:
+> 195682
+Grade: 5 cow(s)
+Turn 285:
+> 591682
+Grade: 5 cow(s)
+Turn 286:
+> 951682
+Grade: 5 cow(s)
+Turn 287:
+> 961582
+Grade: 5 cow(s)
+Turn 288:
+> 691582
+Grade: 5 cow(s)
+Turn 289:
+> 196582
+Grade: 5 cow(s)
+Turn 290:
+> 916582
+Grade: 5 cow(s)
+Turn 291:
+> 619582
+Grade: 1 bull(s) and 4 cow(s)
+Turn 292:
+> 169582
+Grade: 1 bull(s) and 4 cow(s)
+Turn 293:
+> 165982
+Grade: 5 cow(s)
+Turn 294:
+> 615982
+Grade: 5 cow(s)
+Turn 295:
+> 516982
+Grade: 5 cow(s)
+Turn 296:
+> 156982
+Grade: 5 cow(s)
+Turn 297:
+> 651982
+Grade: 5 cow(s)
+Turn 298:
+> 561982
+Grade: 5 cow(s)
+Turn 299:
+> 861952
+Grade: 2 bull(s) and 4 cow(s)
+Turn 300:
+> 681952
+Grade: 1 bull(s) and 4 cow(s)
+Turn 301:
+> 186952
+Grade: 1 bull(s) and 4 cow(s)
+Turn 302:
+> 816952
+Grade: 2 bull(s) and 4 cow(s)
+Turn 303:
+> 618952
+Grade: 1 bull(s) and 4 cow(s)
+Turn 304:
+> 168952
+Grade: 1 bull(s) and 4 cow(s)
+Turn 305:
+> 968152
+Grade: 2 bull(s) and 3 cow(s)
+Turn 306:
+> 698152
+Grade: 2 bull(s) and 3 cow(s)
+Turn 307:
+> 896152
+Grade: 3 bull(s) and 3 cow(s)
+Turn 308:
+> 986152
+Grade: 2 bull(s) and 3 cow(s)
+Turn 309:
+> 689152
+Grade: 3 bull(s) and 2 cow(s)
+Turn 310:
+> 869152
+Grade: 4 bull(s) and 2 cow(s)
+Turn 311:
+> 819652
+Grade: 3 bull(s) and 3 cow(s)
+Turn 312:
+> 189652
+Grade: 2 bull(s) and 3 cow(s)
+Turn 313:
+> 981652
+Grade: 1 bull(s) and 4 cow(s)
+Turn 314:
+> 891652
+Grade: 2 bull(s) and 4 cow(s)
+Turn 315:
+> 198652
+Grade: 1 bull(s) and 4 cow(s)
+Turn 316:
+> 918652
+Grade: 1 bull(s) and 4 cow(s)
+Turn 317:
+> 916852
+Grade: 1 bull(s) and 4 cow(s)
+Turn 318:
+> 196852
+Grade: 1 bull(s) and 4 cow(s)
+Turn 319:
+> 691852
+Grade: 1 bull(s) and 4 cow(s)
+Turn 320:
+> 961852
+Grade: 1 bull(s) and 4 cow(s)
+Turn 321:
+> 169852
+Grade: 2 bull(s) and 3 cow(s)
+Turn 322:
+> 619852
+Grade: 2 bull(s) and 3 cow(s)
+Turn 323:
+> 519862
+Grade: 1 bull(s) and 4 cow(s)
+Turn 324:
+> 159862
+Grade: 1 bull(s) and 4 cow(s)
+Turn 325:
+> 951862
+Grade: 5 cow(s)
+Turn 326:
+> 591862
+Grade: 5 cow(s)
+Turn 327:
+> 195862
+Grade: 5 cow(s)
+Turn 328:
+> 915862
+Grade: 5 cow(s)
+Turn 329:
+> 815962
+Grade: 1 bull(s) and 5 cow(s)
+Turn 330:
+> 185962
+Grade: 5 cow(s)
+Turn 331:
+> 581962
+Grade: 5 cow(s)
+Turn 332:
+> 851962
+Grade: 1 bull(s) and 5 cow(s)
+Turn 333:
+> 158962
+Grade: 5 cow(s)
+Turn 334:
+> 518962
+Grade: 5 cow(s)
+Turn 335:
+> 598162
+Grade: 1 bull(s) and 4 cow(s)
+Turn 336:
+> 958162
+Grade: 1 bull(s) and 4 cow(s)
+Turn 337:
+> 859162
+Grade: 3 bull(s) and 3 cow(s)
+Turn 338:
+> 589162
+Grade: 2 bull(s) and 3 cow(s)
+Turn 339:
+> 985162
+Grade: 1 bull(s) and 4 cow(s)
+Turn 340:
+> 895162
+Grade: 2 bull(s) and 4 cow(s)
+Turn 341:
+> 891562
+Grade: 1 bull(s) and 5 cow(s)
+Turn 342:
+> 981562
+Grade: 5 cow(s)
+Turn 343:
+> 189562
+Grade: 1 bull(s) and 4 cow(s)
+Turn 344:
+> 819562
+Grade: 2 bull(s) and 4 cow(s)
+Turn 345:
+> 918562
+Grade: 5 cow(s)
+Turn 346:
+> 198562
+Grade: 5 cow(s)
+Turn 347:
+> 698512
+Grade: 5 cow(s)
+Turn 348:
+> 968512
+Grade: 5 cow(s)
+Turn 349:
+> 869512
+Grade: 2 bull(s) and 4 cow(s)
+Turn 350:
+> 689512
+Grade: 1 bull(s) and 4 cow(s)
+Turn 351:
+> 986512
+Grade: 5 cow(s)
+Turn 352:
+> 896512
+Grade: 1 bull(s) and 5 cow(s)
+Turn 353:
+> 596812
+Grade: 5 cow(s)
+Turn 354:
+> 956812
+Grade: 5 cow(s)
+Turn 355:
+> 659812
+Grade: 1 bull(s) and 4 cow(s)
+Turn 356:
+> 569812
+Grade: 1 bull(s) and 4 cow(s)
+Turn 357:
+> 965812
+Grade: 5 cow(s)
+Turn 358:
+> 695812
+Grade: 5 cow(s)
+Turn 359:
+> 685912
+Grade: 5 cow(s)
+Turn 360:
+> 865912
+Grade: 1 bull(s) and 5 cow(s)
+Turn 361:
+> 568912
+Grade: 5 cow(s)
+Turn 362:
+> 658912
+Grade: 5 cow(s)
+Turn 363:
+> 856912
+Grade: 1 bull(s) and 5 cow(s)
+Turn 364:
+> 586912
+Grade: 5 cow(s)
+Turn 365:
+> 589612
+Grade: 1 bull(s) and 4 cow(s)
+Turn 366:
+> 859612
+Grade: 2 bull(s) and 4 cow(s)
+Turn 367:
+> 958612
+Grade: 5 cow(s)
+Turn 368:
+> 598612
+Grade: 5 cow(s)
+Turn 369:
+> 895612
+Grade: 1 bull(s) and 5 cow(s)
+Turn 370:
+> 985612
+Grade: 5 cow(s)
+Turn 371:
+> 982615
+Grade: 5 cow(s)
+Turn 372:
+> 892615
+Grade: 1 bull(s) and 5 cow(s)
+Turn 373:
+> 298615
+Grade: 5 cow(s)
+Turn 374:
+> 928615
+Grade: 1 bull(s) and 4 cow(s)
+Turn 375:
+> 829615
+Grade: 3 bull(s) and 3 cow(s)
+Turn 376:
+> 289615
+Grade: 1 bull(s) and 4 cow(s)
+Turn 377:
+> 689215
+Grade: 1 bull(s) and 4 cow(s)
+Turn 378:
+> 869215
+Grade: 2 bull(s) and 4 cow(s)
+Turn 379:
+> 968215
+Grade: 5 cow(s)
+Turn 380:
+> 698215
+Grade: 5 cow(s)
+Turn 381:
+> 896215
+Grade: 1 bull(s) and 5 cow(s)
+Turn 382:
+> 986215
+Grade: 5 cow(s)
+Turn 383:
+> 926815
+Grade: 1 bull(s) and 4 cow(s)
+Turn 384:
+> 296815
+Grade: 5 cow(s)
+Turn 385:
+> 692815
+Grade: 5 cow(s)
+Turn 386:
+> 962815
+Grade: 5 cow(s)
+Turn 387:
+> 269815
+Grade: 1 bull(s) and 4 cow(s)
+Turn 388:
+> 629815
+Grade: 2 bull(s) and 3 cow(s)
+Turn 389:
+> 628915
+Grade: 1 bull(s) and 4 cow(s)
+Turn 390:
+> 268915
+Grade: 5 cow(s)
+Turn 391:
+> 862915
+Grade: 1 bull(s) and 5 cow(s)
+Turn 392:
+> 682915
+Grade: 5 cow(s)
+Turn 393:
+> 286915
+Grade: 5 cow(s)
+Turn 394:
+> 826915
+Grade: 2 bull(s) and 4 cow(s)
+Turn 395:
+> 126985
+Grade: 1 bull(s) and 4 cow(s)
+Turn 396:
+> 216985
+Grade: 5 cow(s)
+Turn 397:
+> 612985
+Grade: 5 cow(s)
+Turn 398:
+> 162985
+Grade: 5 cow(s)
+Turn 399:
+> 261985
+Grade: 5 cow(s)
+Turn 400:
+> 621985
+Grade: 1 bull(s) and 4 cow(s)
+Turn 401:
+> 921685
+Grade: 1 bull(s) and 4 cow(s)
+Turn 402:
+> 291685
+Grade: 5 cow(s)
+Turn 403:
+> 192685
+Grade: 5 cow(s)
+Turn 404:
+> 912685
+Grade: 5 cow(s)
+Turn 405:
+> 219685
+Grade: 1 bull(s) and 4 cow(s)
+Turn 406:
+> 129685
+Grade: 2 bull(s) and 3 cow(s)
+Turn 407:
+> 169285
+Grade: 1 bull(s) and 4 cow(s)
+Turn 408:
+> 619285
+Grade: 1 bull(s) and 4 cow(s)
+Turn 409:
+> 916285
+Grade: 5 cow(s)
+Turn 410:
+> 196285
+Grade: 5 cow(s)
+Turn 411:
+> 691285
+Grade: 5 cow(s)
+Turn 412:
+> 961285
+Grade: 5 cow(s)
+Turn 413:
+> 962185
+Grade: 1 bull(s) and 4 cow(s)
+Turn 414:
+> 692185
+Grade: 1 bull(s) and 4 cow(s)
+Turn 415:
+> 296185
+Grade: 1 bull(s) and 4 cow(s)
+Turn 416:
+> 926185
+Grade: 2 bull(s) and 3 cow(s)
+Turn 417:
+> 629185
+Grade: 3 bull(s) and 2 cow(s)
+Turn 418:
+> 269185
+Grade: 2 bull(s) and 3 cow(s)
+Turn 419:
+> 869125
+Grade: 3 bull(s) and 3 cow(s)
+Turn 420:
+> 689125
+Grade: 2 bull(s) and 3 cow(s)
+Turn 421:
+> 986125
+Grade: 1 bull(s) and 4 cow(s)
+Turn 422:
+> 896125
+Grade: 2 bull(s) and 4 cow(s)
+Turn 423:
+> 698125
+Grade: 1 bull(s) and 4 cow(s)
+Turn 424:
+> 968125
+Grade: 1 bull(s) and 4 cow(s)
+Turn 425:
+> 168925
+Grade: 5 cow(s)
+Turn 426:
+> 618925
+Grade: 5 cow(s)
+Turn 427:
+> 816925
+Grade: 1 bull(s) and 5 cow(s)
+Turn 428:
+> 186925
+Grade: 5 cow(s)
+Turn 429:
+> 681925
+Grade: 5 cow(s)
+Turn 430:
+> 861925
+Grade: 1 bull(s) and 5 cow(s)
+Turn 431:
+> 891625
+Grade: 1 bull(s) and 5 cow(s)
+Turn 432:
+> 981625
+Grade: 5 cow(s)
+Turn 433:
+> 189625
+Grade: 1 bull(s) and 4 cow(s)
+Turn 434:
+> 819625
+Grade: 2 bull(s) and 4 cow(s)
+Turn 435:
+> 918625
+Grade: 5 cow(s)
+Turn 436:
+> 198625
+Grade: 5 cow(s)
+Turn 437:
+> 196825
+Grade: 5 cow(s)
+Turn 438:
+> 916825
+Grade: 5 cow(s)
+Turn 439:
+> 619825
+Grade: 1 bull(s) and 4 cow(s)
+Turn 440:
+> 169825
+Grade: 1 bull(s) and 4 cow(s)
+Turn 441:
+> 961825
+Grade: 5 cow(s)
+Turn 442:
+> 691825
+Grade: 5 cow(s)
+Turn 443:
+> 291865
+Grade: 5 cow(s)
+Turn 444:
+> 921865
+Grade: 1 bull(s) and 4 cow(s)
+Turn 445:
+> 129865
+Grade: 2 bull(s) and 3 cow(s)
+Turn 446:
+> 219865
+Grade: 1 bull(s) and 4 cow(s)
+Turn 447:
+> 912865
+Grade: 5 cow(s)
+Turn 448:
+> 192865
+Grade: 5 cow(s)
+Turn 449:
+> 892165
+Grade: 2 bull(s) and 4 cow(s)
+Turn 450:
+> 982165
+Grade: 1 bull(s) and 4 cow(s)
+Turn 451:
+> 289165
+Grade: 2 bull(s) and 3 cow(s)
+Turn 452:
+> 829165
+Grade: 4 bull(s) and 2 cow(s)
+Turn 453:
+> 928165
+Grade: 2 bull(s) and 3 cow(s)
+Turn 454:
+> 298165
+Grade: 1 bull(s) and 4 cow(s)
+Turn 455:
+> 218965
+Grade: 5 cow(s)
+Turn 456:
+> 128965
+Grade: 1 bull(s) and 4 cow(s)
+Turn 457:
+> 821965
+Grade: 2 bull(s) and 4 cow(s)
+Turn 458:
+> 281965
+Grade: 5 cow(s)
+Turn 459:
+> 182965
+Grade: 5 cow(s)
+Turn 460:
+> 812965
+Grade: 1 bull(s) and 5 cow(s)
+Turn 461:
+> 819265
+Grade: 2 bull(s) and 4 cow(s)
+Turn 462:
+> 189265
+Grade: 1 bull(s) and 4 cow(s)
+Turn 463:
+> 981265
+Grade: 5 cow(s)
+Turn 464:
+> 891265
+Grade: 1 bull(s) and 5 cow(s)
+Turn 465:
+> 198265
+Grade: 5 cow(s)
+Turn 466:
+> 918265
+Grade: 5 cow(s)
+Turn 467:
+> 618295
+Grade: 5 cow(s)
+Turn 468:
+> 168295
+Grade: 5 cow(s)
+Turn 469:
+> 861295
+Grade: 1 bull(s) and 5 cow(s)
+Turn 470:
+> 681295
+Grade: 5 cow(s)
+Turn 471:
+> 186295
+Grade: 5 cow(s)
+Turn 472:
+> 816295
+Grade: 1 bull(s) and 5 cow(s)
+Turn 473:
+> 216895
+Grade: 5 cow(s)
+Turn 474:
+> 126895
+Grade: 1 bull(s) and 4 cow(s)
+Turn 475:
+> 621895
+Grade: 1 bull(s) and 4 cow(s)
+Turn 476:
+> 261895
+Grade: 5 cow(s)
+Turn 477:
+> 162895
+Grade: 5 cow(s)
+Turn 478:
+> 612895
+Grade: 5 cow(s)
+Turn 479:
+> 682195
+Grade: 1 bull(s) and 4 cow(s)
+Turn 480:
+> 862195
+Grade: 2 bull(s) and 4 cow(s)
+Turn 481:
+> 268195
+Grade: 1 bull(s) and 4 cow(s)
+Turn 482:
+> 628195
+Grade: 2 bull(s) and 3 cow(s)
+Turn 483:
+> 826195
+Grade: 3 bull(s) and 3 cow(s)
+Turn 484:
+> 286195
+Grade: 1 bull(s) and 4 cow(s)
+Turn 485:
+> 281695
+Grade: 5 cow(s)
+Turn 486:
+> 821695
+Grade: 2 bull(s) and 4 cow(s)
+Turn 487:
+> 128695
+Grade: 1 bull(s) and 4 cow(s)
+Turn 488:
+> 218695
+Grade: 5 cow(s)
+Turn 489:
+> 812695
+Grade: 1 bull(s) and 5 cow(s)
+Turn 490:
+> 182695
+Grade: 5 cow(s)
+Turn 491:
+> 182596
+Grade: 1 bull(s) and 4 cow(s)
+Turn 492:
+> 812596
+Grade: 2 bull(s) and 4 cow(s)
+Turn 493:
+> 218596
+Grade: 1 bull(s) and 4 cow(s)
+Turn 494:
+> 128596
+Grade: 2 bull(s) and 3 cow(s)
+Turn 495:
+> 821596
+Grade: 3 bull(s) and 3 cow(s)
+Turn 496:
+> 281596
+Grade: 1 bull(s) and 4 cow(s)
+Turn 497:
+> 581296
+Grade: 1 bull(s) and 4 cow(s)
+Turn 498:
+> 851296
+Grade: 2 bull(s) and 4 cow(s)
+Turn 499:
+> 158296
+Grade: 1 bull(s) and 4 cow(s)
+Turn 500:
+> 518296
+Grade: 1 bull(s) and 4 cow(s)
+Turn 501:
+> 815296
+Grade: 2 bull(s) and 4 cow(s)
+Turn 502:
+> 185296
+Grade: 1 bull(s) and 4 cow(s)
+Turn 503:
+> 125896
+Grade: 2 bull(s) and 3 cow(s)
+Turn 504:
+> 215896
+Grade: 1 bull(s) and 4 cow(s)
+Turn 505:
+> 512896
+Grade: 1 bull(s) and 4 cow(s)
+Turn 506:
+> 152896
+Grade: 1 bull(s) and 4 cow(s)
+Turn 507:
+> 251896
+Grade: 1 bull(s) and 4 cow(s)
+Turn 508:
+> 521896
+Grade: 2 bull(s) and 3 cow(s)
+Turn 509:
+> 528196
+Grade: 3 bull(s) and 2 cow(s)
+Turn 510:
+> 258196
+Grade: 2 bull(s) and 3 cow(s)
+Turn 511:
+> 852196
+Grade: 3 bull(s) and 3 cow(s)
+Turn 512:
+> 582196
+Grade: 2 bull(s) and 3 cow(s)
+Turn 513:
+> 285196
+Grade: 2 bull(s) and 3 cow(s)
+Turn 514:
+> 825196
+Grade: 4 bull(s) and 2 cow(s)
+Turn 515:
+> 925186
+Grade: 3 bull(s) and 2 cow(s)
+Turn 516:
+> 295186
+Grade: 2 bull(s) and 3 cow(s)
+Turn 517:
+> 592186
+Grade: 2 bull(s) and 3 cow(s)
+Turn 518:
+> 952186
+Grade: 2 bull(s) and 3 cow(s)
+Turn 519:
+> 259186
+Grade: 3 bull(s) and 2 cow(s)
+Turn 520:
+> 529186
+Grade: 4 bull(s) and 1 cow(s)
+Turn 521:
+> 129586
+Grade: 3 bull(s) and 2 cow(s)
+Turn 522:
+> 219586
+Grade: 2 bull(s) and 3 cow(s)
+Turn 523:
+> 912586
+Grade: 1 bull(s) and 4 cow(s)
+Turn 524:
+> 192586
+Grade: 1 bull(s) and 4 cow(s)
+Turn 525:
+> 291586
+Grade: 1 bull(s) and 4 cow(s)
+Turn 526:
+> 921586
+Grade: 2 bull(s) and 3 cow(s)
+Turn 527:
+> 951286
+Grade: 1 bull(s) and 4 cow(s)
+Turn 528:
+> 591286
+Grade: 1 bull(s) and 4 cow(s)
+Turn 529:
+> 195286
+Grade: 1 bull(s) and 4 cow(s)
+Turn 530:
+> 915286
+Grade: 1 bull(s) and 4 cow(s)
+Turn 531:
+> 519286
+Grade: 2 bull(s) and 3 cow(s)
+Turn 532:
+> 159286
+Grade: 2 bull(s) and 3 cow(s)
+Turn 533:
+> 152986
+Grade: 1 bull(s) and 4 cow(s)
+Turn 534:
+> 512986
+Grade: 1 bull(s) and 4 cow(s)
+Turn 535:
+> 215986
+Grade: 1 bull(s) and 4 cow(s)
+Turn 536:
+> 125986
+Grade: 2 bull(s) and 3 cow(s)
+Turn 537:
+> 521986
+Grade: 2 bull(s) and 3 cow(s)
+Turn 538:
+> 251986
+Grade: 1 bull(s) and 4 cow(s)
+Turn 539:
+> 851926
+Grade: 2 bull(s) and 4 cow(s)
+Turn 540:
+> 581926
+Grade: 1 bull(s) and 4 cow(s)
+Turn 541:
+> 185926
+Grade: 1 bull(s) and 4 cow(s)
+Turn 542:
+> 815926
+Grade: 2 bull(s) and 4 cow(s)
+Turn 543:
+> 518926
+Grade: 1 bull(s) and 4 cow(s)
+Turn 544:
+> 158926
+Grade: 1 bull(s) and 4 cow(s)
+Turn 545:
+> 958126
+Grade: 2 bull(s) and 3 cow(s)
+Turn 546:
+> 598126
+Grade: 2 bull(s) and 3 cow(s)
+Turn 547:
+> 895126
+Grade: 3 bull(s) and 3 cow(s)
+Turn 548:
+> 985126
+Grade: 2 bull(s) and 3 cow(s)
+Turn 549:
+> 589126
+Grade: 3 bull(s) and 2 cow(s)
+Turn 550:
+> 859126
+Grade: 4 bull(s) and 2 cow(s)
+Turn 551:
+> 819526
+Grade: 3 bull(s) and 3 cow(s)
+Turn 552:
+> 189526
+Grade: 2 bull(s) and 3 cow(s)
+Turn 553:
+> 981526
+Grade: 1 bull(s) and 4 cow(s)
+Turn 554:
+> 891526
+Grade: 2 bull(s) and 4 cow(s)
+Turn 555:
+> 198526
+Grade: 1 bull(s) and 4 cow(s)
+Turn 556:
+> 918526
+Grade: 1 bull(s) and 4 cow(s)
+Turn 557:
+> 915826
+Grade: 1 bull(s) and 4 cow(s)
+Turn 558:
+> 195826
+Grade: 1 bull(s) and 4 cow(s)
+Turn 559:
+> 591826
+Grade: 1 bull(s) and 4 cow(s)
+Turn 560:
+> 951826
+Grade: 1 bull(s) and 4 cow(s)
+Turn 561:
+> 159826
+Grade: 2 bull(s) and 3 cow(s)
+Turn 562:
+> 519826
+Grade: 2 bull(s) and 3 cow(s)
+Turn 563:
+> 219856
+Grade: 3 bull(s) and 2 cow(s)
+Turn 564:
+> 129856
+Grade: 4 bull(s) and 1 cow(s)
+Turn 565:
+> 921856
+Grade: 3 bull(s) and 2 cow(s)
+Turn 566:
+> 291856
+Grade: 2 bull(s) and 3 cow(s)
+Turn 567:
+> 192856
+Grade: 2 bull(s) and 3 cow(s)
+Turn 568:
+> 912856
+Grade: 2 bull(s) and 3 cow(s)
+Turn 569:
+> 812956
+Grade: 3 bull(s) and 3 cow(s)
+Turn 570:
+> 182956
+Grade: 2 bull(s) and 3 cow(s)
+Turn 571:
+> 281956
+Grade: 2 bull(s) and 3 cow(s)
+Turn 572:
+> 821956
+Grade: 4 bull(s) and 2 cow(s)
+Turn 573:
+> 128956
+Grade: 3 bull(s) and 2 cow(s)
+Turn 574:
+> 218956
+Grade: 2 bull(s) and 3 cow(s)
+Turn 575:
+> 298156
+Grade: 3 bull(s) and 2 cow(s)
+Turn 576:
+> 928156
+Grade: 4 bull(s) and 1 cow(s)
+Turn 577:
+> 829156
+Grade: 6 bull(s)
+Congratulations! You guessed the secret code.
+?[1;31m
+Start test 4?[0m
+Input the length of the secret code:
+> 11
+Input the number of possible symbols in the code:
+> 10
+Error: it's not possible to generate a code with a length of 11 with 10 unique symbols.
+?[1;31m
+Start test 5?[0m
+Input the length of the secret code:
+> 4
+Input the number of possible symbols in the code:
+> 16
+The secret is prepared: **** (0-9, a-f).
+Okay, let's start a game!
+Turn 1:
+> 0000
+Grade: None
+Turn 2:
+> 1111
+Grade: None
+Turn 3:
+> 2222
+Grade: None
+Turn 4:
+> 3333
+Grade: None
+Turn 5:
+> 4444
+Grade: None
+Turn 6:
+> 5555
+Grade: 1 bull(s) and 3 cow(s)
+Turn 7:
+> 6666
+Grade: None
+Turn 8:
+> 7777
+Grade: None
+Turn 9:
+> 8888
+Grade: 1 bull(s) and 3 cow(s)
+Turn 10:
+> 9999
+Grade: None
+Turn 11:
+> aaaa
+Grade: 1 bull(s)
+Turn 12:
+> bbbb
+Grade: None
+Turn 13:
+> cccc
+Grade: None
+Turn 14:
+> dddd
+Grade: None
+Turn 15:
+> eeee
+Grade: 1 bull(s) and 3 cow(s)
+Turn 16:
+> 58ae
+Grade: 2 bull(s) and 1 cow(s)
+Turn 17:
+> 85ae
+Grade: 1 bull(s) and 2 cow(s)
+Turn 18:
+> a58e
+Grade: 2 bull(s) and 2 cow(s)
+Turn 19:
+> 5a8e
+Grade: 1 bull(s) and 2 cow(s)
+Turn 20:
+> 8a5e
+Grade: 2 bull(s) and 1 cow(s)
+Turn 21:
+> a85e
+Grade: 4 bull(s)
+Congratulations! You guessed the secret code.
+?[1;31m
+Start test 6?[0m
+Input the length of the secret code:
+> 6
+Input the number of possible symbols in the code:
+> 36
+The secret is prepared: ****** (0-9, a-z).
+Okay, let's start a game!
+Turn 1:
+> 000000
+Grade: None
+Turn 2:
+> 111111
+Grade: None
+Turn 3:
+> 222222
+Grade: None
+Turn 4:
+> 333333
+Grade: None
+Turn 5:
+> 444444
+Grade: None
+Turn 6:
+> 555555
+Grade: None
+Turn 7:
+> 666666
+Grade: None
+Turn 8:
+> 777777
+Grade: None
+Turn 9:
+> 888888
+Grade: None
+Turn 10:
+> 999999
+Grade: 1 bull(s) and 5 cow(s)
+Turn 11:
+> aaaaaa
+Grade: None
+Turn 12:
+> bbbbbb
+Grade: 1 bull(s)
+Turn 13:
+> cccccc
+Grade: 1 bull(s) and 5 cow(s)
+Turn 14:
+> dddddd
+Grade: 1 bull(s) and 5 cow(s)
+Turn 15:
+> eeeeee
+Grade: None
+Turn 16:
+> ffffff
+Grade: None
+Turn 17:
+> gggggg
+Grade: None
+Turn 18:
+> hhhhhh
+Grade: None
+Turn 19:
+> iiiiii
+Grade: None
+Turn 20:
+> jjjjjj
+Grade: None
+Turn 21:
+> kkkkkk
+Grade: 1 bull(s) and 5 cow(s)
+Turn 22:
+> llllll
+Grade: None
+Turn 23:
+> mmmmmm
+Grade: None
+Turn 24:
+> nnnnnn
+Grade: None
+Turn 25:
+> oooooo
+Grade: None
+Turn 26:
+> pppppp
+Grade: None
+Turn 27:
+> qqqqqq
+Grade: None
+Turn 28:
+> rrrrrr
+Grade: None
+Turn 29:
+> ssssss
+Grade: None
+Turn 30:
+> tttttt
+Grade: None
+Turn 31:
+> uuuuuu
+Grade: 1 bull(s) and 5 cow(s)
+Turn 32:
+> 9bcdku
+Grade: 5 cow(s)
+Turn 33:
+> b9cdku
+Grade: 2 bull(s) and 4 cow(s)
+Turn 34:
+> c9bdku
+Grade: 1 bull(s) and 4 cow(s)
+Turn 35:
+> 9cbdku
+Grade: 5 cow(s)
+Turn 36:
+> bc9dku
+Grade: 1 bull(s) and 5 cow(s)
+Turn 37:
+> cb9dku
+Grade: 5 cow(s)
+Turn 38:
+> db9cku
+Grade: 5 cow(s)
+Turn 39:
+> bd9cku
+Grade: 1 bull(s) and 5 cow(s)
+Turn 40:
+> 9dbcku
+Grade: 5 cow(s)
+Turn 41:
+> d9bcku
+Grade: 1 bull(s) and 4 cow(s)
+Turn 42:
+> b9dcku
+Grade: 3 bull(s) and 3 cow(s)
+Turn 43:
+> 9bdcku
+Grade: 1 bull(s) and 4 cow(s)
+Turn 44:
+> 9cdbku
+Grade: 1 bull(s) and 4 cow(s)
+Turn 45:
+> c9dbku
+Grade: 2 bull(s) and 3 cow(s)
+Turn 46:
+> d9cbku
+Grade: 1 bull(s) and 4 cow(s)
+Turn 47:
+> 9dcbku
+Grade: 5 cow(s)
+Turn 48:
+> cd9bku
+Grade: 5 cow(s)
+Turn 49:
+> dc9bku
+Grade: 5 cow(s)
+Turn 50:
+> dcb9ku
+Grade: 5 cow(s)
+Turn 51:
+> cdb9ku
+Grade: 5 cow(s)
+Turn 52:
+> bdc9ku
+Grade: 1 bull(s) and 5 cow(s)
+Turn 53:
+> dbc9ku
+Grade: 5 cow(s)
+Turn 54:
+> cbd9ku
+Grade: 1 bull(s) and 4 cow(s)
+Turn 55:
+> bcd9ku
+Grade: 2 bull(s) and 4 cow(s)
+Turn 56:
+> kcd9bu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 57:
+> ckd9bu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 58:
+> dkc9bu
+Grade: 5 cow(s)
+Turn 59:
+> kdc9bu
+Grade: 5 cow(s)
+Turn 60:
+> cdk9bu
+Grade: 5 cow(s)
+Turn 61:
+> dck9bu
+Grade: 5 cow(s)
+Turn 62:
+> 9ckdbu
+Grade: 5 cow(s)
+Turn 63:
+> c9kdbu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 64:
+> k9cdbu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 65:
+> 9kcdbu
+Grade: 5 cow(s)
+Turn 66:
+> ck9dbu
+Grade: 5 cow(s)
+Turn 67:
+> kc9dbu
+Grade: 5 cow(s)
+Turn 68:
+> kd9cbu
+Grade: 5 cow(s)
+Turn 69:
+> dk9cbu
+Grade: 5 cow(s)
+Turn 70:
+> 9kdcbu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 71:
+> k9dcbu
+Grade: 2 bull(s) and 3 cow(s)
+Turn 72:
+> d9kcbu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 73:
+> 9dkcbu
+Grade: 5 cow(s)
+Turn 74:
+> 9dckbu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 75:
+> d9ckbu
+Grade: 2 bull(s) and 3 cow(s)
+Turn 76:
+> c9dkbu
+Grade: 3 bull(s) and 2 cow(s)
+Turn 77:
+> 9cdkbu
+Grade: 2 bull(s) and 3 cow(s)
+Turn 78:
+> dc9kbu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 79:
+> cd9kbu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 80:
+> bd9kcu
+Grade: 2 bull(s) and 4 cow(s)
+Turn 81:
+> db9kcu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 82:
+> 9bdkcu
+Grade: 2 bull(s) and 3 cow(s)
+Turn 83:
+> b9dkcu
+Grade: 4 bull(s) and 2 cow(s)
+Turn 84:
+> d9bkcu
+Grade: 2 bull(s) and 3 cow(s)
+Turn 85:
+> 9dbkcu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 86:
+> kdb9cu
+Grade: 5 cow(s)
+Turn 87:
+> dkb9cu
+Grade: 5 cow(s)
+Turn 88:
+> bkd9cu
+Grade: 2 bull(s) and 4 cow(s)
+Turn 89:
+> kbd9cu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 90:
+> dbk9cu
+Grade: 5 cow(s)
+Turn 91:
+> bdk9cu
+Grade: 1 bull(s) and 5 cow(s)
+Turn 92:
+> b9kdcu
+Grade: 2 bull(s) and 4 cow(s)
+Turn 93:
+> 9bkdcu
+Grade: 5 cow(s)
+Turn 94:
+> kb9dcu
+Grade: 5 cow(s)
+Turn 95:
+> bk9dcu
+Grade: 1 bull(s) and 5 cow(s)
+Turn 96:
+> 9kbdcu
+Grade: 5 cow(s)
+Turn 97:
+> k9bdcu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 98:
+> k9dbcu
+Grade: 2 bull(s) and 3 cow(s)
+Turn 99:
+> 9kdbcu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 100:
+> dk9bcu
+Grade: 5 cow(s)
+Turn 101:
+> kd9bcu
+Grade: 5 cow(s)
+Turn 102:
+> 9dkbcu
+Grade: 5 cow(s)
+Turn 103:
+> d9kbcu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 104:
+> c9kbdu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 105:
+> 9ckbdu
+Grade: 5 cow(s)
+Turn 106:
+> kc9bdu
+Grade: 5 cow(s)
+Turn 107:
+> ck9bdu
+Grade: 5 cow(s)
+Turn 108:
+> 9kcbdu
+Grade: 5 cow(s)
+Turn 109:
+> k9cbdu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 110:
+> b9ckdu
+Grade: 3 bull(s) and 3 cow(s)
+Turn 111:
+> 9bckdu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 112:
+> cb9kdu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 113:
+> bc9kdu
+Grade: 2 bull(s) and 4 cow(s)
+Turn 114:
+> 9cbkdu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 115:
+> c9bkdu
+Grade: 2 bull(s) and 3 cow(s)
+Turn 116:
+> ckb9du
+Grade: 5 cow(s)
+Turn 117:
+> kcb9du
+Grade: 5 cow(s)
+Turn 118:
+> bck9du
+Grade: 1 bull(s) and 5 cow(s)
+Turn 119:
+> cbk9du
+Grade: 5 cow(s)
+Turn 120:
+> kbc9du
+Grade: 5 cow(s)
+Turn 121:
+> bkc9du
+Grade: 1 bull(s) and 5 cow(s)
+Turn 122:
+> bk9cdu
+Grade: 1 bull(s) and 5 cow(s)
+Turn 123:
+> kb9cdu
+Grade: 5 cow(s)
+Turn 124:
+> 9bkcdu
+Grade: 5 cow(s)
+Turn 125:
+> b9kcdu
+Grade: 2 bull(s) and 4 cow(s)
+Turn 126:
+> k9bcdu
+Grade: 1 bull(s) and 4 cow(s)
+Turn 127:
+> 9kbcdu
+Grade: 5 cow(s)
+Turn 128:
+> dkbc9u
+Grade: 5 cow(s)
+Turn 129:
+> kdbc9u
+Grade: 5 cow(s)
+Turn 130:
+> bdkc9u
+Grade: 1 bull(s) and 5 cow(s)
+Turn 131:
+> dbkc9u
+Grade: 5 cow(s)
+Turn 132:
+> kbdc9u
+Grade: 1 bull(s) and 4 cow(s)
+Turn 133:
+> bkdc9u
+Grade: 2 bull(s) and 4 cow(s)
+Turn 134:
+> ckdb9u
+Grade: 1 bull(s) and 4 cow(s)
+Turn 135:
+> kcdb9u
+Grade: 1 bull(s) and 4 cow(s)
+Turn 136:
+> dckb9u
+Grade: 5 cow(s)
+Turn 137:
+> cdkb9u
+Grade: 5 cow(s)
+Turn 138:
+> kdcb9u
+Grade: 5 cow(s)
+Turn 139:
+> dkcb9u
+Grade: 5 cow(s)
+Turn 140:
+> dbck9u
+Grade: 1 bull(s) and 4 cow(s)
+Turn 141:
+> bdck9u
+Grade: 2 bull(s) and 4 cow(s)
+Turn 142:
+> cdbk9u
+Grade: 1 bull(s) and 4 cow(s)
+Turn 143:
+> dcbk9u
+Grade: 1 bull(s) and 4 cow(s)
+Turn 144:
+> bcdk9u
+Grade: 3 bull(s) and 3 cow(s)
+Turn 145:
+> cbdk9u
+Grade: 2 bull(s) and 3 cow(s)
+Turn 146:
+> cbkd9u
+Grade: 5 cow(s)
+Turn 147:
+> bckd9u
+Grade: 1 bull(s) and 5 cow(s)
+Turn 148:
+> kcbd9u
+Grade: 5 cow(s)
+Turn 149:
+> ckbd9u
+Grade: 5 cow(s)
+Turn 150:
+> bkcd9u
+Grade: 1 bull(s) and 5 cow(s)
+Turn 151:
+> kbcd9u
+Grade: 5 cow(s)
+Turn 152:
+> ubcd9k
+Grade: 5 cow(s)
+Turn 153:
+> bucd9k
+Grade: 1 bull(s) and 5 cow(s)
+Turn 154:
+> cubd9k
+Grade: 5 cow(s)
+Turn 155:
+> ucbd9k
+Grade: 5 cow(s)
+Turn 156:
+> bcud9k
+Grade: 1 bull(s) and 5 cow(s)
+Turn 157:
+> cbud9k
+Grade: 5 cow(s)
+Turn 158:
+> dbuc9k
+Grade: 5 cow(s)
+Turn 159:
+> bduc9k
+Grade: 1 bull(s) and 5 cow(s)
+Turn 160:
+> udbc9k
+Grade: 5 cow(s)
+Turn 161:
+> dubc9k
+Grade: 5 cow(s)
+Turn 162:
+> budc9k
+Grade: 2 bull(s) and 4 cow(s)
+Turn 163:
+> ubdc9k
+Grade: 1 bull(s) and 4 cow(s)
+Turn 164:
+> ucdb9k
+Grade: 1 bull(s) and 4 cow(s)
+Turn 165:
+> cudb9k
+Grade: 1 bull(s) and 4 cow(s)
+Turn 166:
+> ducb9k
+Grade: 5 cow(s)
+Turn 167:
+> udcb9k
+Grade: 5 cow(s)
+Turn 168:
+> cdub9k
+Grade: 5 cow(s)
+Turn 169:
+> dcub9k
+Grade: 5 cow(s)
+Turn 170:
+> dcbu9k
+Grade: 5 cow(s)
+Turn 171:
+> cdbu9k
+Grade: 5 cow(s)
+Turn 172:
+> bdcu9k
+Grade: 1 bull(s) and 5 cow(s)
+Turn 173:
+> dbcu9k
+Grade: 5 cow(s)
+Turn 174:
+> cbdu9k
+Grade: 1 bull(s) and 4 cow(s)
+Turn 175:
+> bcdu9k
+Grade: 2 bull(s) and 4 cow(s)
+Turn 176:
+> 9cdubk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 177:
+> c9dubk
+Grade: 2 bull(s) and 3 cow(s)
+Turn 178:
+> d9cubk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 179:
+> 9dcubk
+Grade: 5 cow(s)
+Turn 180:
+> cd9ubk
+Grade: 5 cow(s)
+Turn 181:
+> dc9ubk
+Grade: 5 cow(s)
+Turn 182:
+> uc9dbk
+Grade: 5 cow(s)
+Turn 183:
+> cu9dbk
+Grade: 5 cow(s)
+Turn 184:
+> 9ucdbk
+Grade: 5 cow(s)
+Turn 185:
+> u9cdbk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 186:
+> c9udbk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 187:
+> 9cudbk
+Grade: 5 cow(s)
+Turn 188:
+> 9ducbk
+Grade: 5 cow(s)
+Turn 189:
+> d9ucbk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 190:
+> u9dcbk
+Grade: 2 bull(s) and 3 cow(s)
+Turn 191:
+> 9udcbk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 192:
+> du9cbk
+Grade: 5 cow(s)
+Turn 193:
+> ud9cbk
+Grade: 5 cow(s)
+Turn 194:
+> udc9bk
+Grade: 5 cow(s)
+Turn 195:
+> duc9bk
+Grade: 5 cow(s)
+Turn 196:
+> cud9bk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 197:
+> ucd9bk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 198:
+> dcu9bk
+Grade: 5 cow(s)
+Turn 199:
+> cdu9bk
+Grade: 5 cow(s)
+Turn 200:
+> bdu9ck
+Grade: 1 bull(s) and 5 cow(s)
+Turn 201:
+> dbu9ck
+Grade: 5 cow(s)
+Turn 202:
+> ubd9ck
+Grade: 1 bull(s) and 4 cow(s)
+Turn 203:
+> bud9ck
+Grade: 2 bull(s) and 4 cow(s)
+Turn 204:
+> dub9ck
+Grade: 5 cow(s)
+Turn 205:
+> udb9ck
+Grade: 5 cow(s)
+Turn 206:
+> 9dbuck
+Grade: 5 cow(s)
+Turn 207:
+> d9buck
+Grade: 1 bull(s) and 4 cow(s)
+Turn 208:
+> b9duck
+Grade: 3 bull(s) and 3 cow(s)
+Turn 209:
+> 9bduck
+Grade: 1 bull(s) and 4 cow(s)
+Turn 210:
+> db9uck
+Grade: 5 cow(s)
+Turn 211:
+> bd9uck
+Grade: 1 bull(s) and 5 cow(s)
+Turn 212:
+> bu9dck
+Grade: 1 bull(s) and 5 cow(s)
+Turn 213:
+> ub9dck
+Grade: 5 cow(s)
+Turn 214:
+> 9budck
+Grade: 5 cow(s)
+Turn 215:
+> b9udck
+Grade: 2 bull(s) and 4 cow(s)
+Turn 216:
+> u9bdck
+Grade: 1 bull(s) and 4 cow(s)
+Turn 217:
+> 9ubdck
+Grade: 5 cow(s)
+Turn 218:
+> 9udbck
+Grade: 1 bull(s) and 4 cow(s)
+Turn 219:
+> u9dbck
+Grade: 2 bull(s) and 3 cow(s)
+Turn 220:
+> d9ubck
+Grade: 1 bull(s) and 4 cow(s)
+Turn 221:
+> 9dubck
+Grade: 5 cow(s)
+Turn 222:
+> ud9bck
+Grade: 5 cow(s)
+Turn 223:
+> du9bck
+Grade: 5 cow(s)
+Turn 224:
+> cu9bdk
+Grade: 5 cow(s)
+Turn 225:
+> uc9bdk
+Grade: 5 cow(s)
+Turn 226:
+> 9cubdk
+Grade: 5 cow(s)
+Turn 227:
+> c9ubdk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 228:
+> u9cbdk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 229:
+> 9ucbdk
+Grade: 5 cow(s)
+Turn 230:
+> buc9dk
+Grade: 1 bull(s) and 5 cow(s)
+Turn 231:
+> ubc9dk
+Grade: 5 cow(s)
+Turn 232:
+> cbu9dk
+Grade: 5 cow(s)
+Turn 233:
+> bcu9dk
+Grade: 1 bull(s) and 5 cow(s)
+Turn 234:
+> ucb9dk
+Grade: 5 cow(s)
+Turn 235:
+> cub9dk
+Grade: 5 cow(s)
+Turn 236:
+> c9budk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 237:
+> 9cbudk
+Grade: 5 cow(s)
+Turn 238:
+> bc9udk
+Grade: 1 bull(s) and 5 cow(s)
+Turn 239:
+> cb9udk
+Grade: 5 cow(s)
+Turn 240:
+> 9bcudk
+Grade: 5 cow(s)
+Turn 241:
+> b9cudk
+Grade: 2 bull(s) and 4 cow(s)
+Turn 242:
+> b9ucdk
+Grade: 2 bull(s) and 4 cow(s)
+Turn 243:
+> 9bucdk
+Grade: 5 cow(s)
+Turn 244:
+> ub9cdk
+Grade: 5 cow(s)
+Turn 245:
+> bu9cdk
+Grade: 1 bull(s) and 5 cow(s)
+Turn 246:
+> 9ubcdk
+Grade: 5 cow(s)
+Turn 247:
+> u9bcdk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 248:
+> d9bcuk
+Grade: 2 bull(s) and 3 cow(s)
+Turn 249:
+> 9dbcuk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 250:
+> bd9cuk
+Grade: 2 bull(s) and 4 cow(s)
+Turn 251:
+> db9cuk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 252:
+> 9bdcuk
+Grade: 2 bull(s) and 3 cow(s)
+Turn 253:
+> b9dcuk
+Grade: 4 bull(s) and 2 cow(s)
+Turn 254:
+> c9dbuk
+Grade: 3 bull(s) and 2 cow(s)
+Turn 255:
+> 9cdbuk
+Grade: 2 bull(s) and 3 cow(s)
+Turn 256:
+> dc9buk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 257:
+> cd9buk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 258:
+> 9dcbuk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 259:
+> d9cbuk
+Grade: 2 bull(s) and 3 cow(s)
+Turn 260:
+> dbc9uk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 261:
+> bdc9uk
+Grade: 2 bull(s) and 4 cow(s)
+Turn 262:
+> cdb9uk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 263:
+> dcb9uk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 264:
+> bcd9uk
+Grade: 3 bull(s) and 3 cow(s)
+Turn 265:
+> cbd9uk
+Grade: 2 bull(s) and 3 cow(s)
+Turn 266:
+> cb9duk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 267:
+> bc9duk
+Grade: 2 bull(s) and 4 cow(s)
+Turn 268:
+> 9cbduk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 269:
+> c9bduk
+Grade: 2 bull(s) and 3 cow(s)
+Turn 270:
+> b9cduk
+Grade: 3 bull(s) and 3 cow(s)
+Turn 271:
+> 9bcduk
+Grade: 1 bull(s) and 4 cow(s)
+Turn 272:
+> 9kcdub
+Grade: 1 bull(s) and 4 cow(s)
+Turn 273:
+> k9cdub
+Grade: 2 bull(s) and 3 cow(s)
+Turn 274:
+> c9kdub
+Grade: 2 bull(s) and 3 cow(s)
+Turn 275:
+> 9ckdub
+Grade: 1 bull(s) and 4 cow(s)
+Turn 276:
+> kc9dub
+Grade: 1 bull(s) and 4 cow(s)
+Turn 277:
+> ck9dub
+Grade: 1 bull(s) and 4 cow(s)
+Turn 278:
+> dk9cub
+Grade: 1 bull(s) and 4 cow(s)
+Turn 279:
+> kd9cub
+Grade: 1 bull(s) and 4 cow(s)
+Turn 280:
+> 9dkcub
+Grade: 1 bull(s) and 4 cow(s)
+Turn 281:
+> d9kcub
+Grade: 2 bull(s) and 3 cow(s)
+Turn 282:
+> k9dcub
+Grade: 3 bull(s) and 2 cow(s)
+Turn 283:
+> 9kdcub
+Grade: 2 bull(s) and 3 cow(s)
+Turn 284:
+> 9cdkub
+Grade: 3 bull(s) and 2 cow(s)
+Turn 285:
+> c9dkub
+Grade: 4 bull(s) and 1 cow(s)
+Turn 286:
+> d9ckub
+Grade: 3 bull(s) and 2 cow(s)
+Turn 287:
+> 9dckub
+Grade: 2 bull(s) and 3 cow(s)
+Turn 288:
+> cd9kub
+Grade: 2 bull(s) and 3 cow(s)
+Turn 289:
+> dc9kub
+Grade: 2 bull(s) and 3 cow(s)
+Turn 290:
+> dck9ub
+Grade: 1 bull(s) and 4 cow(s)
+Turn 291:
+> cdk9ub
+Grade: 1 bull(s) and 4 cow(s)
+Turn 292:
+> kdc9ub
+Grade: 1 bull(s) and 4 cow(s)
+Turn 293:
+> dkc9ub
+Grade: 1 bull(s) and 4 cow(s)
+Turn 294:
+> ckd9ub
+Grade: 2 bull(s) and 3 cow(s)
+Turn 295:
+> kcd9ub
+Grade: 2 bull(s) and 3 cow(s)
+Turn 296:
+> ucd9kb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 297:
+> cud9kb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 298:
+> duc9kb
+Grade: 5 cow(s)
+Turn 299:
+> udc9kb
+Grade: 5 cow(s)
+Turn 300:
+> cdu9kb
+Grade: 5 cow(s)
+Turn 301:
+> dcu9kb
+Grade: 5 cow(s)
+Turn 302:
+> 9cudkb
+Grade: 5 cow(s)
+Turn 303:
+> c9udkb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 304:
+> u9cdkb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 305:
+> 9ucdkb
+Grade: 5 cow(s)
+Turn 306:
+> cu9dkb
+Grade: 5 cow(s)
+Turn 307:
+> uc9dkb
+Grade: 5 cow(s)
+Turn 308:
+> ud9ckb
+Grade: 5 cow(s)
+Turn 309:
+> du9ckb
+Grade: 5 cow(s)
+Turn 310:
+> 9udckb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 311:
+> u9dckb
+Grade: 2 bull(s) and 3 cow(s)
+Turn 312:
+> d9uckb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 313:
+> 9duckb
+Grade: 5 cow(s)
+Turn 314:
+> 9dcukb
+Grade: 5 cow(s)
+Turn 315:
+> d9cukb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 316:
+> c9dukb
+Grade: 2 bull(s) and 3 cow(s)
+Turn 317:
+> 9cdukb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 318:
+> dc9ukb
+Grade: 5 cow(s)
+Turn 319:
+> cd9ukb
+Grade: 5 cow(s)
+Turn 320:
+> kd9ucb
+Grade: 5 cow(s)
+Turn 321:
+> dk9ucb
+Grade: 5 cow(s)
+Turn 322:
+> 9kducb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 323:
+> k9ducb
+Grade: 2 bull(s) and 3 cow(s)
+Turn 324:
+> d9kucb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 325:
+> 9dkucb
+Grade: 5 cow(s)
+Turn 326:
+> udk9cb
+Grade: 5 cow(s)
+Turn 327:
+> duk9cb
+Grade: 5 cow(s)
+Turn 328:
+> kud9cb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 329:
+> ukd9cb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 330:
+> dku9cb
+Grade: 5 cow(s)
+Turn 331:
+> kdu9cb
+Grade: 5 cow(s)
+Turn 332:
+> k9udcb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 333:
+> 9kudcb
+Grade: 5 cow(s)
+Turn 334:
+> uk9dcb
+Grade: 5 cow(s)
+Turn 335:
+> ku9dcb
+Grade: 5 cow(s)
+Turn 336:
+> 9ukdcb
+Grade: 5 cow(s)
+Turn 337:
+> u9kdcb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 338:
+> u9dkcb
+Grade: 3 bull(s) and 2 cow(s)
+Turn 339:
+> 9udkcb
+Grade: 2 bull(s) and 3 cow(s)
+Turn 340:
+> du9kcb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 341:
+> ud9kcb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 342:
+> 9dukcb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 343:
+> d9ukcb
+Grade: 2 bull(s) and 3 cow(s)
+Turn 344:
+> c9ukdb
+Grade: 2 bull(s) and 3 cow(s)
+Turn 345:
+> 9cukdb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 346:
+> uc9kdb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 347:
+> cu9kdb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 348:
+> 9uckdb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 349:
+> u9ckdb
+Grade: 2 bull(s) and 3 cow(s)
+Turn 350:
+> k9cudb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 351:
+> 9kcudb
+Grade: 5 cow(s)
+Turn 352:
+> ck9udb
+Grade: 5 cow(s)
+Turn 353:
+> kc9udb
+Grade: 5 cow(s)
+Turn 354:
+> 9ckudb
+Grade: 5 cow(s)
+Turn 355:
+> c9kudb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 356:
+> cuk9db
+Grade: 5 cow(s)
+Turn 357:
+> uck9db
+Grade: 5 cow(s)
+Turn 358:
+> kcu9db
+Grade: 5 cow(s)
+Turn 359:
+> cku9db
+Grade: 5 cow(s)
+Turn 360:
+> ukc9db
+Grade: 5 cow(s)
+Turn 361:
+> kuc9db
+Grade: 5 cow(s)
+Turn 362:
+> ku9cdb
+Grade: 5 cow(s)
+Turn 363:
+> uk9cdb
+Grade: 5 cow(s)
+Turn 364:
+> 9kucdb
+Grade: 5 cow(s)
+Turn 365:
+> k9ucdb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 366:
+> u9kcdb
+Grade: 1 bull(s) and 4 cow(s)
+Turn 367:
+> 9ukcdb
+Grade: 5 cow(s)
+Turn 368:
+> dukc9b
+Grade: 5 cow(s)
+Turn 369:
+> udkc9b
+Grade: 5 cow(s)
+Turn 370:
+> kduc9b
+Grade: 5 cow(s)
+Turn 371:
+> dkuc9b
+Grade: 5 cow(s)
+Turn 372:
+> ukdc9b
+Grade: 1 bull(s) and 4 cow(s)
+Turn 373:
+> kudc9b
+Grade: 1 bull(s) and 4 cow(s)
+Turn 374:
+> cudk9b
+Grade: 2 bull(s) and 3 cow(s)
+Turn 375:
+> ucdk9b
+Grade: 2 bull(s) and 3 cow(s)
+Turn 376:
+> dcuk9b
+Grade: 1 bull(s) and 4 cow(s)
+Turn 377:
+> cduk9b
+Grade: 1 bull(s) and 4 cow(s)
+Turn 378:
+> udck9b
+Grade: 1 bull(s) and 4 cow(s)
+Turn 379:
+> duck9b
+Grade: 1 bull(s) and 4 cow(s)
+Turn 380:
+> dkcu9b
+Grade: 5 cow(s)
+Turn 381:
+> kdcu9b
+Grade: 5 cow(s)
+Turn 382:
+> cdku9b
+Grade: 5 cow(s)
+Turn 383:
+> dcku9b
+Grade: 5 cow(s)
+Turn 384:
+> kcdu9b
+Grade: 1 bull(s) and 4 cow(s)
+Turn 385:
+> ckdu9b
+Grade: 1 bull(s) and 4 cow(s)
+Turn 386:
+> ckud9b
+Grade: 5 cow(s)
+Turn 387:
+> kcud9b
+Grade: 5 cow(s)
+Turn 388:
+> uckd9b
+Grade: 5 cow(s)
+Turn 389:
+> cukd9b
+Grade: 5 cow(s)
+Turn 390:
+> kucd9b
+Grade: 5 cow(s)
+Turn 391:
+> ukcd9b
+Grade: 5 cow(s)
+Turn 392:
+> ukbd9c
+Grade: 1 bull(s) and 4 cow(s)
+Turn 393:
+> kubd9c
+Grade: 1 bull(s) and 4 cow(s)
+Turn 394:
+> bukd9c
+Grade: 2 bull(s) and 4 cow(s)
+Turn 395:
+> ubkd9c
+Grade: 1 bull(s) and 4 cow(s)
+Turn 396:
+> kbud9c
+Grade: 1 bull(s) and 4 cow(s)
+Turn 397:
+> bkud9c
+Grade: 2 bull(s) and 4 cow(s)
+Turn 398:
+> dkub9c
+Grade: 1 bull(s) and 4 cow(s)
+Turn 399:
+> kdub9c
+Grade: 1 bull(s) and 4 cow(s)
+Turn 400:
+> udkb9c
+Grade: 1 bull(s) and 4 cow(s)
+Turn 401:
+> dukb9c
+Grade: 1 bull(s) and 4 cow(s)
+Turn 402:
+> kudb9c
+Grade: 2 bull(s) and 3 cow(s)
+Turn 403:
+> ukdb9c
+Grade: 2 bull(s) and 3 cow(s)
+Turn 404:
+> ubdk9c
+Grade: 3 bull(s) and 2 cow(s)
+Turn 405:
+> budk9c
+Grade: 4 bull(s) and 2 cow(s)
+Turn 406:
+> dubk9c
+Grade: 2 bull(s) and 3 cow(s)
+Turn 407:
+> udbk9c
+Grade: 2 bull(s) and 3 cow(s)
+Turn 408:
+> bduk9c
+Grade: 3 bull(s) and 3 cow(s)
+Turn 409:
+> dbuk9c
+Grade: 2 bull(s) and 3 cow(s)
+Turn 410:
+> dbku9c
+Grade: 1 bull(s) and 4 cow(s)
+Turn 411:
+> bdku9c
+Grade: 2 bull(s) and 4 cow(s)
+Turn 412:
+> kdbu9c
+Grade: 1 bull(s) and 4 cow(s)
+Turn 413:
+> dkbu9c
+Grade: 1 bull(s) and 4 cow(s)
+Turn 414:
+> bkdu9c
+Grade: 3 bull(s) and 3 cow(s)
+Turn 415:
+> kbdu9c
+Grade: 2 bull(s) and 3 cow(s)
+Turn 416:
+> 9bdukc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 417:
+> b9dukc
+Grade: 4 bull(s) and 2 cow(s)
+Turn 418:
+> d9bukc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 419:
+> 9dbukc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 420:
+> bd9ukc
+Grade: 2 bull(s) and 4 cow(s)
+Turn 421:
+> db9ukc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 422:
+> ub9dkc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 423:
+> bu9dkc
+Grade: 2 bull(s) and 4 cow(s)
+Turn 424:
+> 9ubdkc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 425:
+> u9bdkc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 426:
+> b9udkc
+Grade: 3 bull(s) and 3 cow(s)
+Turn 427:
+> 9budkc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 428:
+> 9dubkc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 429:
+> d9ubkc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 430:
+> u9dbkc
+Grade: 3 bull(s) and 2 cow(s)
+Turn 431:
+> 9udbkc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 432:
+> du9bkc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 433:
+> ud9bkc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 434:
+> udb9kc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 435:
+> dub9kc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 436:
+> bud9kc
+Grade: 3 bull(s) and 3 cow(s)
+Turn 437:
+> ubd9kc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 438:
+> dbu9kc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 439:
+> bdu9kc
+Grade: 2 bull(s) and 4 cow(s)
+Turn 440:
+> kdu9bc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 441:
+> dku9bc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 442:
+> ukd9bc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 443:
+> kud9bc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 444:
+> duk9bc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 445:
+> udk9bc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 446:
+> 9dkubc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 447:
+> d9kubc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 448:
+> k9dubc
+Grade: 3 bull(s) and 2 cow(s)
+Turn 449:
+> 9kdubc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 450:
+> dk9ubc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 451:
+> kd9ubc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 452:
+> ku9dbc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 453:
+> uk9dbc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 454:
+> 9kudbc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 455:
+> k9udbc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 456:
+> u9kdbc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 457:
+> 9ukdbc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 458:
+> 9udkbc
+Grade: 3 bull(s) and 2 cow(s)
+Turn 459:
+> u9dkbc
+Grade: 4 bull(s) and 1 cow(s)
+Turn 460:
+> d9ukbc
+Grade: 3 bull(s) and 2 cow(s)
+Turn 461:
+> 9dukbc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 462:
+> ud9kbc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 463:
+> du9kbc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 464:
+> bu9kdc
+Grade: 3 bull(s) and 3 cow(s)
+Turn 465:
+> ub9kdc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 466:
+> 9bukdc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 467:
+> b9ukdc
+Grade: 4 bull(s) and 2 cow(s)
+Turn 468:
+> u9bkdc
+Grade: 3 bull(s) and 2 cow(s)
+Turn 469:
+> 9ubkdc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 470:
+> kub9dc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 471:
+> ukb9dc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 472:
+> bku9dc
+Grade: 2 bull(s) and 4 cow(s)
+Turn 473:
+> kbu9dc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 474:
+> ubk9dc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 475:
+> buk9dc
+Grade: 2 bull(s) and 4 cow(s)
+Turn 476:
+> b9kudc
+Grade: 3 bull(s) and 3 cow(s)
+Turn 477:
+> 9bkudc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 478:
+> kb9udc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 479:
+> bk9udc
+Grade: 2 bull(s) and 4 cow(s)
+Turn 480:
+> 9kbudc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 481:
+> k9budc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 482:
+> k9ubdc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 483:
+> 9kubdc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 484:
+> uk9bdc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 485:
+> ku9bdc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 486:
+> 9ukbdc
+Grade: 1 bull(s) and 4 cow(s)
+Turn 487:
+> u9kbdc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 488:
+> d9kbuc
+Grade: 3 bull(s) and 2 cow(s)
+Turn 489:
+> 9dkbuc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 490:
+> kd9buc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 491:
+> dk9buc
+Grade: 2 bull(s) and 3 cow(s)
+Turn 492:
+> 9kdbuc
+Grade: 3 bull(s) and 2 cow(s)
+Turn 493:
+> k9dbuc
+Grade: 4 bull(s) and 1 cow(s)
+Turn 494:
+> b9dkuc
+Grade: 6 bull(s)
+Congratulations! You guessed the secret code.
+?[1;31m
+Start test 7?[0m
+Input the length of the secret code:
+> 0
+Error: Code length can't be less than or equal to 0.
+?[1;31m
+Start test 8?[0m
+Input the length of the secret code:
+> 10
+Input the number of possible symbols in the code:
+> 9
+Error: it's not possible to generate a code with a length of 10 with 9 unique symbols.
+?[1;31m
+Start test 9?[0m
+Input the length of the secret code:
+> 9
+Input the number of possible symbols in the code:
+> 37
+Error: maximum number of possible symbols in the code is 36 (0-9, a-z).
+?[1;31m
+Start test 10?[0m
+Input the length of the secret code:
+> abcdefg 1 -6
+Error: "abcdefg 1 -6" isn't a valid number.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
